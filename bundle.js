@@ -30,7 +30,7 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_productManage_css
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_balanceCharge_css__WEBPACK_IMPORTED_MODULE_3__["default"]);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_root_css__WEBPACK_IMPORTED_MODULE_4__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".hide {\r\n  display: none;\r\n}\r\n\r\n#app {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n#contents-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin-top: 50px;\r\n  width: 632px;\r\n  row-gap: 40px;\r\n}\r\n\r\n.submit-button {\r\n  background-color: var(--cyan-light);\r\n  color: var(--white);\r\n  width: 70px;\r\n  height: 37px;\r\n}\r\n\r\n.submit-button:hover {\r\n  background-color: var(--cyan);\r\n}\r\n\r\n.tab-button {\r\n  background-color: var(--gray-light);\r\n  color: var(--black);\r\n  width: 120px;\r\n  height: 37px;\r\n}\r\n\r\n.tab-button:hover {\r\n  background-color: var(--gray);\r\n}\r\n\r\n.input {\r\n  border: solid 1.5px;\r\n  border-radius: 10px;\r\n  border-color: var(--gray);\r\n  width: 160px;\r\n  height: 30px;\r\n  padding-left: 8px;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 10px;\r\n  border: none;\r\n  text-align: center;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/app.css"],"names":[],"mappings":"AAIA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":["@import './productManage.css';\r\n@import './balanceCharge.css';\r\n@import './root.css';\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n#app {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n#contents-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin-top: 50px;\r\n  width: 632px;\r\n  row-gap: 40px;\r\n}\r\n\r\n.submit-button {\r\n  background-color: var(--cyan-light);\r\n  color: var(--white);\r\n  width: 70px;\r\n  height: 37px;\r\n}\r\n\r\n.submit-button:hover {\r\n  background-color: var(--cyan);\r\n}\r\n\r\n.tab-button {\r\n  background-color: var(--gray-light);\r\n  color: var(--black);\r\n  width: 120px;\r\n  height: 37px;\r\n}\r\n\r\n.tab-button:hover {\r\n  background-color: var(--gray);\r\n}\r\n\r\n.input {\r\n  border: solid 1.5px;\r\n  border-radius: 10px;\r\n  border-color: var(--gray);\r\n  width: 160px;\r\n  height: 30px;\r\n  padding-left: 8px;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 10px;\r\n  border: none;\r\n  text-align: center;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".hide {\r\n  display: none;\r\n}\r\n\r\n#app {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n#contents-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin-top: 50px;\r\n  width: 632px;\r\n  row-gap: 40px;\r\n}\r\n\r\n.submit-button {\r\n  background-color: var(--cyan-light);\r\n  color: var(--white);\r\n  width: 70px;\r\n  height: 37px;\r\n}\r\n\r\n.submit-button:hover {\r\n  background-color: var(--cyan);\r\n}\r\n\r\n.tab-button {\r\n  background-color: var(--gray-light);\r\n  color: var(--black);\r\n  width: 120px;\r\n  height: 37px;\r\n}\r\n\r\n.tab-button:hover {\r\n  background-color: var(--gray);\r\n}\r\n\r\n.input {\r\n  border: solid 1px;\r\n  border-radius: 10px;\r\n  border-color: var(--gray);\r\n  width: 160px;\r\n  height: 30px;\r\n  padding-left: 8px;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 10px;\r\n  border: none;\r\n  text-align: center;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/app.css"],"names":[],"mappings":"AAIA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,mCAAmC;EACnC,mBAAmB;EACnB,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,iBAAiB;EACjB,mBAAmB;EACnB,yBAAyB;EACzB,YAAY;EACZ,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":["@import './productManage.css';\r\n@import './balanceCharge.css';\r\n@import './root.css';\r\n\r\n.hide {\r\n  display: none;\r\n}\r\n\r\n#app {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n#contents-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  margin-top: 50px;\r\n  width: 632px;\r\n  row-gap: 40px;\r\n}\r\n\r\n.submit-button {\r\n  background-color: var(--cyan-light);\r\n  color: var(--white);\r\n  width: 70px;\r\n  height: 37px;\r\n}\r\n\r\n.submit-button:hover {\r\n  background-color: var(--cyan);\r\n}\r\n\r\n.tab-button {\r\n  background-color: var(--gray-light);\r\n  color: var(--black);\r\n  width: 120px;\r\n  height: 37px;\r\n}\r\n\r\n.tab-button:hover {\r\n  background-color: var(--gray);\r\n}\r\n\r\n.input {\r\n  border: solid 1px;\r\n  border-radius: 10px;\r\n  border-color: var(--gray);\r\n  width: 160px;\r\n  height: 30px;\r\n  padding-left: 8px;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 10px;\r\n  border: none;\r\n  text-align: center;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -693,10 +693,11 @@ class CoinVaultTable {
             this.selectDom();
         };
         this.updateCoinVaultTableTemplate = () => {
-            this.coin500Quantity.textContent = `${this.coinVault.getCoins().coin500}`;
-            this.coin100Quantity.textContent = `${this.coinVault.getCoins().coin100}`;
-            this.coin50Quantity.textContent = `${this.coinVault.getCoins().coin50}`;
-            this.coin10Quantity.textContent = `${this.coinVault.getCoins().coin10}`;
+            const { coin500, coin100, coin50, coin10 } = this.coinVault.getCoins();
+            this.coin500Quantity.textContent = `${coin500}`;
+            this.coin100Quantity.textContent = `${coin100}`;
+            this.coin50Quantity.textContent = `${coin50}`;
+            this.coin10Quantity.textContent = `${coin10}`;
         };
         this.target = props.target;
         this.coinVault = props.coinVault;
@@ -759,13 +760,14 @@ __webpack_require__.r(__webpack_exports__);
 class ProductCatalogTable {
     constructor(props) {
         this.render = () => {
-            if (this.isRerender()) {
-                this.productTableBody.textContent = ``;
-                this.productTableBody.insertAdjacentHTML('beforeend', this.tableBodyTemplate());
-                return;
-            }
             this.target.insertAdjacentHTML('beforeend', this.template());
             this.productTableBody = document.querySelector('#product-table-body');
+            this.productTableBody.insertAdjacentHTML('beforeend', this.tableBodyTemplate());
+            this.productTableBody.addEventListener('click', this.handleProductStateManage);
+        };
+        this.renderTable = () => {
+            this.productTableBody.textContent = '';
+            this.productTableBody.insertAdjacentHTML('beforeend', this.tableBodyTemplate());
             this.productTableBody.addEventListener('click', this.handleProductStateManage);
         };
         this.handleProductStateManage = (e) => {
@@ -797,9 +799,9 @@ class ProductCatalogTable {
         };
         this.target = props.target;
         this.productCatalog = props.productCatalog;
-        this.target.addEventListener('productAdded', this.render);
+        this.target.addEventListener('productAdded', this.renderTable);
     }
-    isRerender() {
+    isRerendered() {
         return this.productTableBody !== undefined;
     }
     template() {
@@ -814,7 +816,7 @@ class ProductCatalogTable {
             <th>수량</th>
           </tr>
         </thead>
-        <tbody id ='product-table-body'>${this.tableBodyTemplate()}</tbody>
+        <tbody id ='product-table-body'></tbody>
       </table>
     </div>
   `;
@@ -975,7 +977,7 @@ class CoinVault {
         this.coinsQuantity = Object.assign({}, _utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.COINS_INIT_QUANTITY);
     }
     addCoins(coins) {
-        [...Object.entries(coins)].forEach(([key, value]) => {
+        Object.entries(coins).forEach(([key, value]) => {
             this.coinsQuantity[key] += value;
         });
     }
@@ -983,7 +985,7 @@ class CoinVault {
         return this.coinsQuantity;
     }
     getBalance() {
-        return [...Object.entries(this.coinsQuantity)].reduce((previous, [key, value]) => previous + _utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.COINS_PRICE_TABLE[key] * value, 0);
+        return Object.entries(this.coinsQuantity).reduce((previous, [key, value]) => previous + _utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.COINS_PRICE_TABLE[key] * value, 0);
     }
     chargeMoney(money) {
         try {
@@ -1006,7 +1008,7 @@ class CoinVault {
     generateRandomCoins(money) {
         let balance = money;
         const generatedCoins = Object.assign({}, _utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.COINS_INIT_QUANTITY);
-        [...Object.entries(_utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.COINS_PRICE_TABLE)].forEach(([key, price]) => {
+        Object.entries(_utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.COINS_PRICE_TABLE).forEach(([key, price]) => {
             const maxQuotient = balance / price;
             if (price === _utils_domain_const__WEBPACK_IMPORTED_MODULE_0__.CHEAPEST_COIN) {
                 generatedCoins[key] = maxQuotient;
@@ -1205,8 +1207,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "getRandomNumZeroToMax": () => (/* binding */ getRandomNumZeroToMax)
 /* harmony export */ });
 const getRandomNumZeroToMax = (max) => {
-    return Math.floor(Math.random() * max);
+    return Math.floor(Math.random() * (max + 1));
 };
+
+
+/***/ }),
+
+/***/ "./src/utils/router.ts":
+/*!*****************************!*\
+  !*** ./src/utils/router.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "pushHistoryPath": () => (/* binding */ pushHistoryPath)
+/* harmony export */ });
+function pushHistoryPath(path) {
+    history.pushState({ path }, '', path);
+}
 
 
 /***/ }),
@@ -1229,17 +1248,22 @@ __webpack_require__.r(__webpack_exports__);
 
 class BalanceChargeView {
     constructor() {
+        this.showBalanceChargeTab = () => {
+            this.eraseAll();
+            this.renderAll();
+        };
         this.coinVault = new _domain_CoinVault__WEBPACK_IMPORTED_MODULE_2__.CoinVault();
         this.contentsContainer = document.querySelector('#contents-container');
-    }
-    init() {
-        this.props = {
+        const props = {
             target: this.contentsContainer,
             coinVault: this.coinVault,
         };
+        this.balanceChargeInput = new _component_BalanceChargeInput__WEBPACK_IMPORTED_MODULE_0__.BalanceChargeInput(props);
+        this.coinVaultTable = new _component_CoinVaultTable__WEBPACK_IMPORTED_MODULE_1__.CoinVaultTable(props);
+        props.target.addEventListener('balanceChargeTabClick', this.showBalanceChargeTab);
+    }
+    eraseAll() {
         this.contentsContainer.textContent = ``;
-        this.balanceChargeInput = new _component_BalanceChargeInput__WEBPACK_IMPORTED_MODULE_0__.BalanceChargeInput(this.props);
-        this.coinVaultTable = new _component_CoinVaultTable__WEBPACK_IMPORTED_MODULE_1__.CoinVaultTable(this.props);
     }
     renderAll() {
         this.balanceChargeInput.render();
@@ -1250,62 +1274,63 @@ class BalanceChargeView {
 
 /***/ }),
 
-/***/ "./src/view/NavView.ts":
-/*!*****************************!*\
-  !*** ./src/view/NavView.ts ***!
-  \*****************************/
+/***/ "./src/view/HomeView.ts":
+/*!******************************!*\
+  !*** ./src/view/HomeView.ts ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "NavView": () => (/* binding */ NavView)
+/* harmony export */   "HomeView": () => (/* binding */ HomeView)
 /* harmony export */ });
 /* harmony import */ var _ProductManageView__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProductManageView */ "./src/view/ProductManageView.ts");
 /* harmony import */ var _BalanceChargeView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BalanceChargeView */ "./src/view/BalanceChargeView.ts");
+/* harmony import */ var _utils_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/router */ "./src/utils/router.ts");
 
 
-class NavView {
+
+class HomeView {
     constructor() {
         this.handlePopstate = (savedData) => {
-            if (savedData.state.path === '/') {
+            if (savedData.state.path === '/javascript-vendingmachine') {
                 this.renderHome();
             }
-            if (savedData.state.path === '/productManage') {
-                this.productManageView.init();
+            if (savedData.state.path === '/javascript-vendingmachine/productManage') {
+                this.productManageView.eraseAll();
                 this.productManageView.renderAll();
             }
-            if (savedData.state.path === '/balanceCharge') {
-                this.balanceChargeView.init();
+            if (savedData.state.path === '/javascript-vendingmachine/balanceCharge') {
+                this.balanceChargeView.eraseAll();
                 this.balanceChargeView.renderAll();
             }
         };
         this.handleShowProductManageTab = () => {
-            this.productManageView.init();
-            this.productManageView.renderAll();
-            const path = '/productManage';
-            history.pushState({ path }, null, path);
+            this.target.dispatchEvent(new CustomEvent('productManageTabClick'));
+            const path = '/javascript-vendingmachine/productManage';
+            (0,_utils_router__WEBPACK_IMPORTED_MODULE_2__.pushHistoryPath)(path);
         };
         this.handleShowBalanceChargeTab = () => {
-            this.balanceChargeView.init();
-            this.balanceChargeView.renderAll();
-            const path = '/balanceCharge';
-            history.pushState({ path }, null, path);
+            this.target.dispatchEvent(new CustomEvent('balanceChargeTabClick'));
+            const path = '/javascript-vendingmachine/balanceCharge';
+            (0,_utils_router__WEBPACK_IMPORTED_MODULE_2__.pushHistoryPath)(path);
         };
+        this.productManageView = new _ProductManageView__WEBPACK_IMPORTED_MODULE_0__.ProductManageView();
+        this.balanceChargeView = new _BalanceChargeView__WEBPACK_IMPORTED_MODULE_1__.BalanceChargeView();
         this.productManageNavBtn = document.querySelector('#product-manage-nav-button');
         this.balanceChargeNavBtn = document.querySelector('#charge-balance-nav-button');
         this.productPurchaseNavBtn = document.querySelector('#product-purchase-nav-button');
         this.productManageNavBtn.addEventListener('click', this.handleShowProductManageTab);
         this.balanceChargeNavBtn.addEventListener('click', this.handleShowBalanceChargeTab);
-        this.productManageView = new _ProductManageView__WEBPACK_IMPORTED_MODULE_0__.ProductManageView();
-        this.balanceChargeView = new _BalanceChargeView__WEBPACK_IMPORTED_MODULE_1__.BalanceChargeView();
+        this.target = document.querySelector('#contents-container');
         this.renderHome();
         window.addEventListener('popstate', (savedData) => {
             this.handlePopstate(savedData);
         });
     }
     renderHome() {
-        const path = '/';
-        history.pushState({ path }, null, path);
+        const path = '/javascript-vendingmachine';
+        (0,_utils_router__WEBPACK_IMPORTED_MODULE_2__.pushHistoryPath)(path);
         this.contentsContainer = document.querySelector('#contents-container');
         this.contentsContainer.textContent = '';
     }
@@ -1332,20 +1357,24 @@ __webpack_require__.r(__webpack_exports__);
 
 class ProductManageView {
     constructor() {
+        this.showProductManageTab = () => {
+            this.eraseAll();
+            this.renderAll();
+        };
         this.productCatalog = new _domain_ProductCatalog__WEBPACK_IMPORTED_MODULE_2__.ProductCatalog();
         this.contentsContainer = document.querySelector('#contents-container');
-    }
-    init() {
-        this.props = {
+        const props = {
             target: this.contentsContainer,
             productCatalog: this.productCatalog,
         };
+        this.productInformationInput = new _component_ProductInformationInput__WEBPACK_IMPORTED_MODULE_0__.ProductInformationInput(props);
+        this.productCatalogTable = new _component_ProductCatalogTable__WEBPACK_IMPORTED_MODULE_1__.ProductCatalogTable(props);
+        props.target.addEventListener('productManageTabClick', this.showProductManageTab);
+    }
+    eraseAll() {
         this.contentsContainer.textContent = '';
-        this.productInformationInput = new _component_ProductInformationInput__WEBPACK_IMPORTED_MODULE_0__.ProductInformationInput(this.props);
-        this.productCatalogTable = new _component_ProductCatalogTable__WEBPACK_IMPORTED_MODULE_1__.ProductCatalogTable(this.props);
     }
     renderAll() {
-        this.contentsContainer.textContent = '';
         this.productInformationInput.render();
         this.productCatalogTable.render();
     }
@@ -1430,11 +1459,11 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/app.css */ "./src/css/app.css");
-/* harmony import */ var _view_NavView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./view/NavView */ "./src/view/NavView.ts");
+/* harmony import */ var _view_HomeView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./view/HomeView */ "./src/view/HomeView.ts");
 
 
 window.addEventListener('DOMContentLoaded', () => {
-    new _view_NavView__WEBPACK_IMPORTED_MODULE_1__.NavView();
+    new _view_HomeView__WEBPACK_IMPORTED_MODULE_1__.HomeView();
 });
 
 })();
