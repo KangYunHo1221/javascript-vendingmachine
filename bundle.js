@@ -1283,8 +1283,7 @@ class ProductCatalogTable {
         const productState = {
             index: this.productCatalog.findExistingProductIndex(tableRow.id),
             name: tableRow.querySelector('.product-name').firstChild.value,
-            price: tableRow.querySelector('.product-price').firstChild
-                .valueAsNumber,
+            price: tableRow.querySelector('.product-price').firstChild.valueAsNumber,
             quantity: tableRow.querySelector('.product-quantity').firstChild
                 .valueAsNumber,
         };
@@ -1425,7 +1424,6 @@ class ProductPurchaseTable {
                     this.productCatalog.purchaseProductByName(tableRow.id);
                     this.renderUpdatedTableRowQuantity(tableRow);
                     sessionStorage.setItem('productCatalog', JSON.stringify(this.productCatalog));
-                    sessionStorage.setItem('coinVault', JSON.stringify(this.coinVault));
                     this.snackBar.render('구매에 성공하였습니다');
                     this.target.dispatchEvent(new CustomEvent('purchased', { detail: { price: productPrice } }));
                 }
@@ -1500,15 +1498,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SignInPage": () => (/* binding */ SignInPage)
 /* harmony export */ });
+/* harmony import */ var _constants_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/auth */ "./src/constants/auth.ts");
+
 class SignInPage {
     constructor(props) {
-        this.render = () => { };
         this.handleSignIn = () => {
             const userData = {
                 email: this.emailInput.value,
                 password: this.pwInput.value,
             };
-            fetch('http://localhost:3000/signin', {
+            fetch(`${_constants_auth__WEBPACK_IMPORTED_MODULE_0__.SERVER_URL}/signin`, {
                 method: 'POST',
                 body: JSON.stringify(userData),
                 headers: {
@@ -1555,9 +1554,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SignUpPage": () => (/* binding */ SignUpPage)
 /* harmony export */ });
+/* harmony import */ var _constants_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/auth */ "./src/constants/auth.ts");
+
 class SignUpPage {
     constructor(props) {
-        this.render = () => { };
         this.handleSignUp = () => {
             if (this.pwInput.value === this.pwConfirmInput.value) {
                 const userData = {
@@ -1565,10 +1565,11 @@ class SignUpPage {
                     name: this.nameInput.value,
                     password: this.pwInput.value,
                 };
-                fetch('http://localhost:3000/signup', {
+                fetch(`${_constants_auth__WEBPACK_IMPORTED_MODULE_0__.SERVER_URL}/signup`, {
                     method: 'POST',
                     body: JSON.stringify(userData),
                     headers: {
+                        'Access-Control-Allow-Origin': `${_constants_auth__WEBPACK_IMPORTED_MODULE_0__.SERVER_URL}/signup`,
                         'Content-Type': 'application/json',
                     },
                 }).then((res) => {
@@ -1624,6 +1625,21 @@ class SnackBar {
         }, 3000);
     }
 }
+
+
+/***/ }),
+
+/***/ "./src/constants/auth.ts":
+/*!*******************************!*\
+  !*** ./src/constants/auth.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SERVER_URL": () => (/* binding */ SERVER_URL)
+/* harmony export */ });
+const SERVER_URL = 'https://japangi-server.herokuapp.com/';
 
 
 /***/ }),
